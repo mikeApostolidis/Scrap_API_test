@@ -191,7 +191,7 @@ app.delete('/product/:id', async(req,res)=>{
 
 
 //mongoose.connect('mongodb+srv://admin:sLP0maBlTzHu7JBG@testapi.8vpts5d.mongodb.net/Node-API?retryWrites=true&w=majority')
-mongoose.connect('mongodb+srv://ScrapMaster:wY5ZdIOBaEy2FdL9@scrapcluster.wije38c.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://ScrapMaster:########@scrapcluster.wije38c.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
     console.log('connected to MongoDB');
     app.listen(port,()=>console.log(`ITS ALIVE http://localhost:${port}`));
